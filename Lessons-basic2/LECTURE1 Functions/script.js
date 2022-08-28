@@ -1,7 +1,5 @@
 'use strict'; //use at the beginning of your script_ 1_script mode forbid us to do certain things_2_it create visible error in developper console where in other script it will fail silently. EX.
 
-
-
 // let hasDriversLicence =  false;
 // const passTest = true;
 
