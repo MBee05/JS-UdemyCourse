@@ -30,5 +30,6 @@ const describePopulation = function (country, population) {
 describePopulation('canada',3801);
 describePopulation('uk',6622);
 describePopulation('france',6739);
-   
+
+
 
