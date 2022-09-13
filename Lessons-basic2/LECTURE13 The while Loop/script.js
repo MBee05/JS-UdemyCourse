@@ -1,9 +1,28 @@
-// Iteration: The for Loop
-//Used instead of repetition
-//for loop is which have a counter have 3 parts : 1st initial value of the counter ex 1 to 10_2nd logical part_3rd to increase the counter
-// 
-//for loop keeps running while condition is true
+// for loop
+// for (let rep = 1; rep <= 10; rep++){
+//     console.log(`Lifting weights repetition ${rep}`);
+// }
 
-for (let rep = 1; rep <= 10; rep++) {
-    console.log(`Lifting weigth repetition ${rep}`);
+
+//while loop: will run while 'this' condition is true
+
+let rep = 1;
+while (rep <= 10){
+    console.log(`while: Lifting weights repetition ${rep}`);
+rep++;
+}
+
+// will give you a decimal number
+// let dice1 = Math.random() * 6
+// console.log(dice1);
+
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+
+while (dice !== 6) {
+    console.log(`You rolled a ${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1;
+    if (dice === 6)
+        console.log('Loop is about to end...');
 }
